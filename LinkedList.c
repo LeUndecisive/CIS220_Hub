@@ -261,15 +261,15 @@ int main() {
 
     // Search for nodes 50 and 15
    if (ListSearch(&listdata,50) != NULL){
-     printf("Data value 50 was found\n");
+     printf("Node 50 was found\n");
    }else{
-     printf("Data value 50 was not found\n");
+     printf("Node 50  was not found\n");
    };
 
     if (ListSearch(&listdata,15) != NULL){
-     printf("Data value 15 was found\n");
+     printf("Node 15 was found\n");
    }else{
-     printf("Data value 15 was not found\n");
+     printf("Node 15 was not found\n");
    };
 
     // Sort the list of nodes and print out the sum of data
