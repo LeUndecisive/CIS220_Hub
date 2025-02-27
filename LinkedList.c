@@ -263,7 +263,7 @@ int main() {
    if (ListSearch(&listdata,50) != NULL){
      printf("Node 50 was found\n");
    }else{
-     printf("Node 50  was not found\n");
+     printf("Node 50 was not found\n");
    };
 
     if (ListSearch(&listdata,15) != NULL){
